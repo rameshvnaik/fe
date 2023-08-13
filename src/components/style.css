@@ -29,15 +29,25 @@
   transform: translate(-50%, -50%);
     background-color: rgba(142, 186, 206, 0.958);
     /* padding: 20px; */
-    width: 500px;
-    height:  auto;
+    width: 400px;
+    height:  40vh;
   
+}
+.error-text {
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 
 @media screen and (max-width: 480px) { 
     .main-div {
-        width: max-content;
-        margin: 10px;
+        width: 100%;
+        margin: 0px;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 .sub-main {
